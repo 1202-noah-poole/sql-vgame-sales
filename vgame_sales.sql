@@ -17,7 +17,7 @@ CREATE TABLE vgame_sales (
 );
 
 #Load Data
-LOAD DATA LOCAL INFILE 'C:/Users/noahs/Desktop/SQL/Video Games Sales Project/vgsales.csv'
+LOAD DATA LOCAL INFILE '.../vgsales.csv' #path hidden
 INTO TABLE vgame_sales
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
